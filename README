@@ -1,3 +1,5 @@
+java implementation of a logging daemon using commons-daemon 
+
 partOne.sh -> downloads list of movies from IMDB
 partTwo.sh -> start | stop| restarts logging daemon
 
@@ -5,7 +7,6 @@ partTwo.sh -> start | stop| restarts logging daemon
 as per time delay [sleep method] in FileLogger class)
 
 partThree -> ruby script that archives all files
-test
-implementation of a logging daemon using commons-daemon
+testFileCreator.sh used to generate random files for testing ruby (partThree.rb script)
 
-and log files will roll over as per defined in FileLogger class
+see README-Linux-Sys-Admin-documentation.txt for instructions on running
