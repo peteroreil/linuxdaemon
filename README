@@ -1,3 +1,11 @@
-implementation of a logging daemon.
-deamon will randomly write movies to log file
+partOne.sh -> downloads list of movies from IMDB
+partTwo.sh -> start | stop| restarts logging daemon
+
+(logging deamon reads from downloaded movie files and writes to log file. Log file is rolled over
+as per time delay [sleep method] in FileLogger class)
+
+partThree -> ruby script that archives all files
+test
+implementation of a logging daemon using commons-daemon
+
 and log files will roll over as per defined in FileLogger class
